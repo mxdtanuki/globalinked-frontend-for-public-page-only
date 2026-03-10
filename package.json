@@ -1,8 +1,8 @@
-"homepage": "https://mxdtanuki.github.io/globalinked-frontend-for-public-page-only"
 {
   "name": "globalinked-system-public",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://mxdtanuki.github.io/globalinked-frontend-for-public-page-only",
   "description": "GlobalInked System - Public Facing Application",
   "dependencies": {
     "@tanstack/react-query": "^5.17.0",
@@ -18,7 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
