@@ -24,9 +24,9 @@ export default function TemplatesPage() {
     {
       category: "MOA on Conference Co-Hosting",
       previewPath:
-        "/assets/MOU and MOA TEMPLATES/pdfs/MOA Template_CONFERENCE Co-Hosting.pdf",
+        "/assets/mou-moa/pdfs/moa-confe-coho.pdf",
       downloadPath:
-        "/assets/MOU and MOA TEMPLATES/MOA on CONFERENCE_Co-Hosting/MOA Template_CONFERENCE Co-Hosting.docx",
+        "/assets/mou-moa/confer/confer.docx",
       icon: FaUniversity,
       type: "moa",
       description:
@@ -35,9 +35,9 @@ export default function TemplatesPage() {
     {
       category: "MOA on Cultural Exchange",
       previewPath:
-        "/assets/MOU and MOA TEMPLATES/pdfs/MOA ON CULTURAL EXCHANGE_template.pdf",
+        "/assets/mou-moa/pdfs/moa-cul-ex.pdf",
       downloadPath:
-        "/assets/MOU and MOA TEMPLATES/MOA on CULTURAL EXCHANGE/MOA ON CULTURAL EXCHANGE_template.docx",
+        "/assets/mou-moa/cultu-exc/cultu-exc.docx",
       icon: FaGlobeAmericas,
       type: "moa",
       description: "Template for cultural exchange programs and partnerships",
@@ -45,9 +45,9 @@ export default function TemplatesPage() {
     {
       category: "MOA on Faculty Exchange",
       previewPath:
-        "/assets/MOU and MOA TEMPLATES/pdfs/MOA Template for Faculty-Exchange.pdf",
+        "/assets/mou-moa/pdfs/moa-fac-ex.pdf",
       downloadPath:
-        "/assets/MOU and MOA TEMPLATES/MOA on FACULTY EXCHANGE/MOA Template for Faculty-Exchange.docx",
+        "/assets/mou-moa/facul-exc/facul-exc.docx",
       icon: HiAcademicCap,
       type: "moa",
       description: "Faculty exchange program agreement template",
@@ -55,9 +55,9 @@ export default function TemplatesPage() {
     {
       category: "MOA on International Competition",
       previewPath:
-        "/assets/MOU and MOA TEMPLATES/pdfs/MOA Template on CO-Hosting International Student Competition.pdf",
+        "/assets/mou-moa/pdfs/moa-cohosting.pdf",
       downloadPath:
-        "/assets/MOU and MOA TEMPLATES/MOA on INTERNATIONAL COMPETITION/MOA Template on CO-Hosting International Student Competition.docx",
+        "/assets/mou-moa/intl-compe/moa-competition.docx",
       icon: FaGraduationCap,
       type: "moa",
       description: "Agreement for hosting international student competitions",
@@ -65,9 +65,9 @@ export default function TemplatesPage() {
     {
       category: "MOA on Research",
       previewPath:
-        "/assets/MOU and MOA TEMPLATES/pdfs/MOA Template for RESEARCH.pdf",
+        "/assets/mou-moa/pdfs/moa-research.pdf",
       downloadPath:
-        "/assets/MOU and MOA TEMPLATES/MOA on RESEARCH/MOA Template for RESEARCH.docx",
+        "/assets/mou-moa/research/research.docx",
       icon: FaFileAlt,
       type: "moa",
       description: "Research collaboration and partnership agreement",
@@ -75,9 +75,9 @@ export default function TemplatesPage() {
     {
       category: "MOA on Student Exchange",
       previewPath:
-        "/assets/MOU and MOA TEMPLATES/pdfs/MOA Template for Student Exchange.pdf",
+        "/assets/mou-moa/pdfs/moa-studex.pdf",
       downloadPath:
-        "/assets/MOU and MOA TEMPLATES/MOA on STUDENT EXCHANGE/MOA Template for Student Exchange.docx",
+        "/assets/mou-moa/stud-exch/stud-exch.docx",
       icon: FaGraduationCap,
       type: "moa",
       description: "Student exchange program agreement template",
@@ -85,9 +85,9 @@ export default function TemplatesPage() {
     {
       category: "MOA on Student Internship",
       previewPath:
-        "/assets/MOU and MOA TEMPLATES/pdfs/MOA Template on STUDENT INTERNSHIP 2025.pdf",
+        "/assets/mou-moa/pdfs/moa-studentinter.pdf",
       downloadPath:
-        "/assets/MOU and MOA TEMPLATES/MOA on STUDENT INTERNSHIP/MOA Template on STUDENT INTERNSHIP 2025.docx",
+        "/assets/mou-moa/stud-intern/stud-intern.docx",
       icon: FaHandshake,
       type: "moa",
       description: "Internship program partnership agreement",
@@ -95,9 +95,9 @@ export default function TemplatesPage() {
     {
       category: "MOU Template 2025",
       previewPath:
-        "/assets/MOU and MOA TEMPLATES/pdfs/MOU-template-PUP-2025_wd-contact_final.pdf",
+        "/assets/mou-moa/pdfs/moutemplate.pdf",
       downloadPath:
-        "/assets/MOU and MOA TEMPLATES/MOU TEMPLATE 2025/MOU-template-PUP-2025_wd-contact_final.docx",
+        "/assets/mou-moa/mou2025/mou2025.docx",
       icon: FaUniversity,
       type: "mou",
       description: "Comprehensive Memorandum of Understanding template",
@@ -218,15 +218,15 @@ export default function TemplatesPage() {
                       </p>
                     </div>
                     <div className="template-card-actions">
-                      <button
+                      {/* <a
+                        href={template.previewPath}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="templates-btn templates-preview-btn"
-                        onClick={() =>
-                          window.open(template.previewPath, "_blank")
-                        }
                       >
                         <FaEye className="templates-btn-icon" />
                         Preview PDF
-                      </button>
+                      </a> */}
                       <a
                         href={template.downloadPath}
                         download
