@@ -21,11 +21,14 @@ import {
   FiMail,
   FiInfo,
 } from "react-icons/fi";
+
 import mainBuilding from "./assets/pup-main-building.jpg";
 import img1 from "./assets/oia/OIA_P1.jpg";
 import img2 from "./assets/oia/OIA_P2.jpg";
 import img3 from "./assets/oia/OIA_P3.jpg";
 import img4 from "./assets/oia/OIA_P4.jpg";
+
+import wuriLogo from "./assets/577342267_1281755067312027_5041505358784559960_n.jpg";
 
 const countryToCode = {
   Afghanistan: "af",
@@ -519,12 +522,12 @@ export default function MainBanner() {
                 </div>
                 <div className="oia-wuri-badge">
                   <a
-                    href="/577342267_1281755067312027_5041505358784559960_n.jpg"
+                    href={wuriLogo}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <img
-                      src="/577342267_1281755067312027_5041505358784559960_n.jpg"
+                      src={wuriLogo}
                       alt="WURI Logo"
                       className="oia-wuri-logo"
                     />
